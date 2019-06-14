@@ -16,6 +16,7 @@
 		009CC4BB22B223E100DCE0D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009CC4BA22B223E100DCE0D0 /* main.m */; };
 		009CC4C422B2254E00DCE0D0 /* RNProtertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 009CC4C322B2254E00DCE0D0 /* RNProtertyList.m */; };
 		009CC4C722B2263700DCE0D0 /* libobjc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 009CC4C622B2263700DCE0D0 /* libobjc.tbd */; };
+		009CC4CB22B36C8600DCE0D0 /* ClassIvarList.m in Sources */ = {isa = PBXBuildFile; fileRef = 009CC4CA22B36C8600DCE0D0 /* ClassIvarList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		009CC4C222B2254E00DCE0D0 /* RNProtertyList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNProtertyList.h; sourceTree = "<group>"; };
 		009CC4C322B2254E00DCE0D0 /* RNProtertyList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNProtertyList.m; sourceTree = "<group>"; };
 		009CC4C622B2263700DCE0D0 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		009CC4C922B36C8600DCE0D0 /* ClassIvarList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassIvarList.h; sourceTree = "<group>"; };
+		009CC4CA22B36C8600DCE0D0 /* ClassIvarList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassIvarList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				009CC4C222B2254E00DCE0D0 /* RNProtertyList.h */,
 				009CC4C322B2254E00DCE0D0 /* RNProtertyList.m */,
+				009CC4C922B36C8600DCE0D0 /* ClassIvarList.h */,
+				009CC4CA22B36C8600DCE0D0 /* ClassIvarList.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			files = (
 				009CC4AD22B223DC00DCE0D0 /* MasterViewController.m in Sources */,
 				009CC4AA22B223DC00DCE0D0 /* AppDelegate.m in Sources */,
+				009CC4CB22B36C8600DCE0D0 /* ClassIvarList.m in Sources */,
 				009CC4C422B2254E00DCE0D0 /* RNProtertyList.m in Sources */,
 				009CC4BB22B223E100DCE0D0 /* main.m in Sources */,
 				009CC4B022B223DC00DCE0D0 /* DetailViewController.m in Sources */,
