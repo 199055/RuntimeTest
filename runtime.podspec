@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "runtime"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "runtime 测试使用"
 
   s.homepage     = "https://github.com/199055/RuntimeTest"
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   #  s.source       = { :git => "https://github.com/199055/RuntimeTest.git", :tag => "#{s.version}" }
 
-     s.source       = { :git => "https://github.com/199055/RuntimeTest.git",:tag => "0.0.2"}
+     s.source       = { :git => "https://github.com/199055/RuntimeTest.git",:tag => "0.0.3"}
 
 
 
